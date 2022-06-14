@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Joan&family=Mulish:ital,wght@0,400;1,600&family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Joan', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    min-height: 200px;
+    background-color: #e5e5e5;
+    box-shadow: 6px -6px 5px rgb(164, 162, 162);
+}
+
+
+.title {
+    color: #219ebc;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#input-el {
+     width: 300px;
+     padding: 10px;
+     border-radius: 50px;
+     border: 1px solid black;
+}
+
+#btn-el {
+    padding: 6px 12px;
+    background-color: #83c5be;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+@media(min-width: 665px){
+  .container{
+      width: 80%;
+      max-width: 520px;
+  }
+}
+
+
+.div {
+ display: flex;
+ background-color: #219ebc;
+ margin: 20px;
+ border-radius: 20px;
+ width: 75%;
+ margin-left: 50px;
+ 
+
+}
+
+#ol-el {
+    list-style: none;
+}
+.li {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    flex: 1;
+}
+
+.btn-check, .btn-delete {
+    cursor: pointer;
+    padding: 10px 15px;
+    
+}
+
+.btn-check {
+    background-color:#52b788;
+    border: none;
+    color: #fff;
+}
+.btn-delete {
+    background-color: #d90429;
+    border: none;
+    color: #fff;
+}
+
+.complete {
+    opacity: 0.5;
+}
+
+
+@media(max-width: 480px) {
+
+    #input-el {
+        width: 200px;
+    }
+    .div {
+        margin: 20px 20px 20px 0;
+        border-radius: 16px;
+        
+    }
+}
